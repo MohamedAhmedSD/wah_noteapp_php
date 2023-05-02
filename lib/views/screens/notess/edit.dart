@@ -3,7 +3,7 @@ import 'package:noteapp_php/core/constants/links.dart';
 import 'package:noteapp_php/views/widgets/crud.dart';
 import 'package:noteapp_php/views/widgets/customtextform.dart';
 
-import '../../../core/functions.dart/valid.dart';
+import '../../../core/functions/valid.dart';
 
 class EditNotes extends StatefulWidget {
   //! we add to constructor => notes to reach to certain notes data by it

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:noteapp_php/core/functions.dart/valid.dart';
+import 'package:noteapp_php/core/functions/valid.dart';
 import 'package:noteapp_php/main.dart';
 import 'package:noteapp_php/views/widgets/customtextform.dart';
 

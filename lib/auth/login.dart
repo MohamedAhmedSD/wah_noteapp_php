@@ -5,7 +5,7 @@ import 'package:noteapp_php/main.dart';
 import 'package:noteapp_php/views/widgets/crud.dart';
 import 'package:noteapp_php/views/widgets/customtextform.dart';
 
-import '../core/functions.dart/valid.dart';
+import '../core/functions/valid.dart';
 
 class Login extends StatefulWidget {
   const Login({super.key});

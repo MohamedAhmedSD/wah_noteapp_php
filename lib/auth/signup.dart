@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:noteapp_php/core/functions.dart/valid.dart';
+import 'package:noteapp_php/core/functions/valid.dart';
 
 import '../core/constants/links.dart';
 import '../views/widgets/crud.dart';
