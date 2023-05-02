@@ -8,6 +8,8 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'auth/login.dart';
 import 'auth/signup.dart';
 
+//! ================ [Not Work If] ===================
+//* not open wifi and XAmpp ==========================
 //? ============ call shared prefs ==================
 //* global
 late SharedPreferences sharedPref;

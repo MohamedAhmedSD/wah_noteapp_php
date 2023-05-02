@@ -38,10 +38,10 @@ class _AddNotesState extends State<AddNotes> with Crud {
         Navigator.of(context).pushReplacementNamed("home");
       } else {
         //! handle it ===================================
-        print("not add");
-        Navigator.of(context).pushReplacementNamed("home");
+        // print("not add");
+        // Navigator.of(context).pushReplacementNamed("home");
       }
-      return response;
+      // return response;
     }
   }
 

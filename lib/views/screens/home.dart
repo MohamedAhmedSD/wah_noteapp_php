@@ -28,7 +28,8 @@ class _HomeState extends State<Home> with Crud {
     return response; //! don't forget it
   }
 
-  bool isLoading = true;
+  bool isLoading = false;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -89,8 +90,11 @@ class _HomeState extends State<Home> with Crud {
                                 return CardNote(
                                   onDelete: () async {
                                     //! we write onDelete function core code here
-                                    var response =
-                                        await postRequest(linkDeleteNotes, {});
+                                    var response = await postRequest(
+                                        linkDeleteNotes, {
+                                      "id": snapshot.data['data'][i]['notes_id']
+                                          .toString()
+                                    });
                                     if (response["status"] == "success") {
                                       Navigator.of(context)
                                           .pushReplacementNamed("home");
@@ -119,7 +123,7 @@ class _HomeState extends State<Home> with Crud {
                             ConnectionState.waiting) {
                           return const Center(child: Text("Loading"));
                         }
-                        return const Text("not connected");
+                        return const Text("not connected to xampp server");
                         // return const Center(child: Text("Lpading"));
                       }),
                 ],
