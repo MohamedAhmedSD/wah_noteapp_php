@@ -67,6 +67,12 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/
+    - assets/raw/certificate.cer
+    - assets/raw/sheikh.great-site.net.crt
+    - assets/raw/sheikh.great-site.net.der
+    - assets/raw/cert.pem
+    - assets/raw/privetkey.pem
+    - assets/raw/sheikh.great-site.net.p7c
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
